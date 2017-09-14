@@ -1,6 +1,9 @@
 ## Group info
-Team members: me [clm633], ???, ???, ...
-Role: cool stuff
+Team members: 
+- me [clm633]
+  - Role: all work besides lab collaboration
+- [unissechua](https://github.com/unissechua)
+  - Role: lab collaborator!
 
 ## Solutions
 
