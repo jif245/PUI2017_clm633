@@ -1,0 +1,3 @@
+## Group info
+Team members: me [clm633], ???, ???, ...
+Role: cool stuff
