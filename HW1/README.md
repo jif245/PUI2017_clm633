@@ -6,4 +6,4 @@ Role: cool stuff
 
 - Question \#1: (see lab)
 - Question \#2: [Repo readme](../README.md)
-- Question \#3: 
+- Question \#3: [Notebook](HW1_3_solutions.ipynb)
