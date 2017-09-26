@@ -20,8 +20,10 @@ timestamp_key = "RecordedAtTime"
 join_key = "MonitoredVehicleJourney_FramedVehicleJourneyRef_DatedVehicleJourneyRef"
 
 line_name = "MonitoredVehicleJourney_PublishedLineName"
+#NOTE: see README for explanation of why this is equivalent to OnwardCalls
 human_distance = "MonitoredVehicleJourney_MonitoredCall_Extensions_Distances_PresentableDistance"
 stop_name = "MonitoredVehicleJourney_MonitoredCall_StopPointName"
+
 
 MTA_API_BASE = "http://bustime.mta.info/api/siri/vehicle-monitoring.json"
 def _flatten_dict(root_key, nested_dict, flattened_dict):
@@ -34,8 +36,10 @@ def _flatten_dict(root_key, nested_dict, flattened_dict):
     return flattened_dict
     
 def nyc_current(key, bus):
+    #NOTE: DetailLevel is actually unnecessary for MonitoredCall
     params = {"key": key,
-              "LineRef": bus}
+              "LineRef": bus,
+              "VehicleMonitoringDetailLevel": "calls"}
     resp = requests.get(MTA_API_BASE, params=params).json()
     info = resp['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
     return pd.DataFrame([_flatten_dict('', i, {}) for i in info])
