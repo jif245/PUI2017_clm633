@@ -67,26 +67,33 @@ you will be graded on the validity and depth of your review. 50% of the grade wi
 
 ## Assignment 2: Literature choices of statistical tests
 
-Work with one, or maximum two people. 
 
-Choose three tests from the table in the slides 
+|
+      Statistical Analyses
+    |
+      IV(s)
+    |
+      IV type(s)
+    |
+      DV(s)
+    |
+      DV type(s)
+    |
+      Control Var
+    |
+      Control Var Type
+    |
+      Question to be Answered
+    |
+      H_0
+    |
+      alpha
+    |
+      Link to Paper
+    |
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|Path Analysis|1: Maternal death|Categorical: 0 or 1 (yes or no, mother died)|2: Annual Income, Expenditure per capita|Both Continuous|Control for mother's age, baseline income, baseline expenditure (source: fig. 4)|Age: ordinal. Baselines: continuous.|Does maternal death increase poverty? (source: conclusion)|Maternal death has no or positive increase on income and expenditure over a 12-month timespan.|10%, 5%, and 1% examined (see fig. 5), but nothing set in advance|[link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134756)|
 
-![stats test](statsTable.png)
-
-one in the top potrion of the chart (chi-sq, t-test, and the ANOVA family of tests) where you are looking for differences between groups, and one in the bottom portion where you are looking for relationships bewteen the dependent and independent variables (correlation, regression, path analysis), and a logistic regression.
-
-Go to the main web page of the journal [PLOS ONE](http://journals.plos.org/plosone/) and search for articles that use that test (**DO NOT USE THE ARTICLE I USED FOR THE CLASS EXAMPLE:** http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062593).
-
-Put the name of your tests (one by one) in the search (you can also use the advanced search) and choose a paper that uses the test you selected. Read the relevant portions of the paper (the abstract, and then a search for occurrences of the test name may be sufficient!) and identify what are the Dependent Variables (DV), Independent Variables (IV), and, if applicable, control variables (remember class 1 slides if you forgot), how many they are, and what type they are (categorical, continuous...). 
-
-Write out the number of DV, type of DV, number of IV, type of IV, number of control variables, kind of questions as a [table](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) in your README.md file, filling in the same fields as in the first table in the literature about ["When to use what test?"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3116565/). 
-
-This is a template for the table. To see how it is written clock on the Raw link to see this README.md in its raw unrendered format.
-
-| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
-|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-ANCOVA	| 1, Ranks of values | ordinal | 1, did Self Affirmation or no| categorical | 1, age | continuous (could also be categoridcal) | 	Do participants in self-affirmation rak  value significantly higher than control group | Ranks test groups <= Ranks control group | 0.05 | [Self-Affirmation Improves Problem-Solving under Stress](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062593) |
-  |||||||||
   
 
 
