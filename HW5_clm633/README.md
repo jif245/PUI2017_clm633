@@ -1,7 +1,7 @@
 # PUI2017 HW 5.
 
 ### Collaborators
-This time, no one specific, maybe Sunglyoung Kim (we both looked at the same stackoverflow question and talked about it). I wrote all code myself in general, though. As usual I helped people with their own code in various capacities but nothing that I'd rmark on.
+This time, no one specific, maybe Sunglyoung Kim (we both looked at the same stackoverflow question and talked about it, he also helped me debug my Q3 data cleaning). I wrote all code myself in general, though. As usual I helped people with their own code in various capacities but nothing that I'd rmark on.
 
 
 ### Assignment 1 Summary
