@@ -1,5 +1,9 @@
 # PUI2017 HW 6.
 
+## Assignment 1: I followed the skeleton notebook to explore different model diagonistics.
+### Collaborators: no one really, I spoke with Sunglyoung Kim a little bit but I don't think we even looked at each other's code.
+
+
 ## NO ASSIGNED READING
 
 ## ASSIGNMENTS:
