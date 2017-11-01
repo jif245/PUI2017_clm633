@@ -30,3 +30,5 @@ Before committing to a T test you must determine if the populations are approxim
 
 http://www.lboro.ac.uk/media/wwwlboroacuk/content/mlsc/downloads/1.2_Unpairedttest.pdf
 
+# FBB this should have been placed in HW3 since it is a review of a project in HW3. 
+# FBB thorough review, should be helful to the author.
