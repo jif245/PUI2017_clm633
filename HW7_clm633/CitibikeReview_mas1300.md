@@ -9,15 +9,25 @@ Alternative Hypothesis:
 H_a: Mean[Males]> Mean[Females] or Mean[Males] < Mean[Females]
 Significance: alpha = 0.05
 
+#### [clm633] Thanks. This makes sense... I figure my hypothesis is explicit enough as-is, even if it's not symbolically defined. If I were writing this up for something more formal I would probably TeX it. Not going to implement.
+
 Perhaps narrowing down to a more specific subset would make the question more interesting.
- 
+
+#### [clm633] Agreed. I'm going to keep my current one out of laziness.
+
 It may be good to add in the time frame you are measuring to not inaccurately generalize over historical and future periods. 
+
+#### [clm633] Done!
 
 the data has the variables of trip duration and gender, and these two have been extracted into their own dataframe
 
 Nowhere is the scale of ‘trip duration’ given, this must be specified
 
+#### [clm633] Done!
+
 The plotting does not have X and Y labels and is therefore unclear what it is demonstrating
+
+#### [clm633] Done!
 
 Suggested Test:
 
@@ -29,6 +39,9 @@ The two populations you are comparing the means of are males and females
 Before committing to a T test you must determine if the populations are approximately normally distributed and have approximately equal variances. 
 
 http://www.lboro.ac.uk/media/wwwlboroacuk/content/mlsc/downloads/1.2_Unpairedttest.pdf
+
+#### [clm633] Right, so the two populations aren't normally distributed. I'll run this test but with this caveat, and also try the Mann-Whitney test.
+
 
 # FBB this should have been placed in HW3 since it is a review of a project in HW3. 
 # FBB thorough review, should be helful to the author.
